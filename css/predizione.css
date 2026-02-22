@@ -1,0 +1,62 @@
+.predizione-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.pred-box {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.pred-box:hover {
+    transform: translateY(-5px); 
+}
+
+.pred-box p {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.pred-box h4 {
+    margin: 0;
+    font-size: 2.2em; 
+    font-weight: bold;
+    color: white;
+}
+
+
+.box-best {
+    background-color: #27ae60; 
+    border-bottom: 5px solid #1e8449;
+}
+
+.box-avg {
+    background-color: #f39c12; 
+    border-bottom: 5px solid #d35400;
+}
+
+.box-worst {
+    background-color: #c0392b; 
+    border-bottom: 5px solid #922b21;
+}
+
+
+.alert errore{
+    background: #f8d7da;
+    color: #721c24;
+}

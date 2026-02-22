@@ -1,0 +1,22 @@
+.chart-card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.chart-title {
+    margin-bottom: 15px;
+    color: #333; 
+}
+
+.chart-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.dist-100m .chart-title { color: #3498db; }
+.dist-200m .chart-title { color: #e67e22; }
+.dist-400m .chart-title { color: #9b59b6; }

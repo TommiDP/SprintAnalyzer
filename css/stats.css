@@ -1,0 +1,48 @@
+.stats-container {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.stats-table th {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 2px solid #2c3e50;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+
+.stats-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    color: #444;
+}
+
+.stats-table td.vento-outrange {
+    font-style: oblique;
+}
+
+.btn-delete {
+    background: none;
+    border: 1px solid #d9534f;
+    color: #d9534f;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.btn-delete:hover {
+    background: #d9534f;
+    color: white;
+}
+
+

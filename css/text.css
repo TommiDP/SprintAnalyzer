@@ -1,0 +1,48 @@
+h1 {
+    font-size: 2.5rem;          
+    font-weight: 600;           
+    letter-spacing: -1px;       
+    line-height: 1.2;
+}
+
+h2 {
+    color: #b33939;
+    font-size: 1.4rem;
+    margin-top: 0;
+    border-left: 4px solid #b33939; 
+    padding-left: 12px;
+}
+
+h3 {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff9f43, #ee5253);
+    color: #000000; 
+    
+    padding: 6px 16px;
+    border-radius: 20px; 
+    font-weight: 700;
+    letter-spacing: 1.2px; 
+    box-shadow: 0 4px 10px rgba(238, 82, 83, 0.2);
+}
+
+
+.welcome-msg {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.welcome-msg h1 {
+    color: #b33939;
+    font-size: 40px;
+}
+
+.welcome-msg span {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.welcome-msg p {
+    margin-top: 8px;
+    color: #444;
+}
+
